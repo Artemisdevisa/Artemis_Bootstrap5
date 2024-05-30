@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off Canvas</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="#mi-offcanvas" class="btn btn-primary" data-bs-toggle="offcanvas" role="button"
+                    aria-controls="mi-offcanvas">
+                    Boton
+                </a>
+
+                <!-- data-bs-backdrop="false" - este atributo sirve para eliminar el fondo -->
+                <!-- data-bs-scroll="true" - sirve para scrollear una vez abierto el offcanvas -->
+                <div class="offcanvas offcanvas-start" data-bs-backdrop="false" tabindex="-1" id="mi-offcanvas" aria-label="mi-offcanvas" data-bs-scroll="true">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Titulo</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Cerrar"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi delectus odit consequatur
+                            nulla sunt iure minima corrupti magnam, impedit consequuntur quae corporis non assumenda!
+                            Dolorem voluptatum tenetur recusandae enim! Illo ea voluptatem quis, enim animi iste, eum
+                            ducimus ipsum error hic, suscipit neque eveniet consectetur rem consequatur quo cumque
+                            repellendus?</p>
+                    </div>
+                </div>
+
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, praesentium.</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Api de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
